@@ -1,0 +1,12 @@
+import os
+import scrapy
+import json
+import logging
+import pandas as pd
+import requests
+import sys
+import numpy as np
+import win32com.client as win32
+from bs4 import BeautifulSoup
+from scrapy.crawler import CrawlerProcess
+from sys import platform
